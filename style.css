@@ -1,0 +1,214 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0px auto;
+    background: rgb(96, 199, 182);
+    padding: 0 15px;
+}
+
+.container_fluid {
+    padding: 60px 0;
+    background: rgb(235, 218, 182);
+}
+
+.title_h1 {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 700;
+}
+
+.title_h2 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+
+.title_h3 {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.col_50 {
+    flex: 0 0 50%;
+    max-width: 50%;
+    padding: 0 15px;
+}
+
+.img_resp {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+p {
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.sport_container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.neck {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0 -15px 25px;
+}
+
+.neck:last-child {
+    margin-bottom: 0px;
+}
+
+.neck > p:last-child {
+    margin-bottom: 0;
+}
+
+.cont_sport_less .neck:nth-child(2n) > .col_50:nth-child(1) {
+    order: 2;
+}
+
+.cont_sport_less .neck:nth-child(2n) > .col_50:nth-child(2) {
+    order: 1;
+}
