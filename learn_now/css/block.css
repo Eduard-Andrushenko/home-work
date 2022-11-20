@@ -1,0 +1,133 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+.wrapper{
+    max-width: 1200px;
+    background: blue;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 0;
+}
+.block{
+background: lime;
+}
+.text{
+display: table-cell;
+width: 600px;
+border: 10px  red solid;
+}
+.look{
+    background: violet;
+}
+.block2{
+background: yellow;
+}
+.text2{
+display: table-cell;
+max-width: 400px;
+background: lime;
+border: 10px red solid;
+}
+.text3{
+display: flex;
+background: rgb(52, 109, 162);
+width: 380px;
+padding: 35px 0;
+}
+.border{
+    border-top: red 10px solid;
+}
+.border2{
+    border-bottom: 10px red solid;
+}
+.block3{
+background: pink;
+}
+.text4{
+display: table-cell;
+width: 600px;
+padding:0 10px;
+border: 10px  red solid;  
+}
+.blOck{
+    width: 300px;
+    display: table-cell;
+    border-right: 10px red solid;
+}
+.flex{
+    width: 300px;
+    display: table-cell;
+    border-left: 10px solid red;
+}
+.flex2{
+    display: flex;
+}
+.look2{
+border-bottom:10px solid red;
+}
+.look3{
+border-top:10px solid red ;
+background: violet;
+}
+.one_block{
+
+}
+.many_blocks{
+
+}
+.stop{
+display: table-cell;
+}
+.block4{
+background: orange;
+padding: 50px 0;
+}
+.text5{
+display: table-cell;
+width: 600px;
+padding:0 10px;
+border: 10px  red solid;
+}
