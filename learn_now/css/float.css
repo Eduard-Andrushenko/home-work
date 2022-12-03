@@ -44,6 +44,11 @@ table {
 body,html{
     scroll-behavior: smooth;
 }
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: left;
+}
 .wrapper{
     max-width: 1200px;
     background: blue;
@@ -68,9 +73,6 @@ body,html{
 }
 .block{
     background: rebeccapurple;
-}
-.crl{
-    clear: left;
 }
 .div3{
     background: gray;
