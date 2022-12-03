@@ -1,0 +1,108 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+.wrapper{
+    max-width: 1200px;
+    background: blue;
+    text-align: center;
+    margin: 0 auto;
+}
+.div1{
+    background-color: yellow;   
+}
+.float{
+    background: violet;
+    max-width: 600px;
+    float:left;
+}
+.div2{ 
+    background: lime;
+}
+.float1{
+    background: orange;
+    max-width: 400px;
+    float:left;
+}
+.block{
+    background: rebeccapurple;
+}
+.crl{
+    clear: left;
+}
+.div3{
+    background: gray;
+}
+.float3{
+    background: rgb(115, 90, 42);
+    max-width: 300px;
+    float:left;
+}
+.outline{
+    outline: 2px red solid;
+}
+.float4{
+    max-width: 150px;
+    float:left;
+}
+.bgb{
+    background: rgb(92, 162, 220);
+}
+.bgy{
+    background: yellow;
+}
+.div4{
+    background: whitesmoke;
+}
+.float5{
+    background: gold;
+    max-width: 500px;
+    float:left;
+}
+.float6{
+    background: lime;
+    max-width: 200px;
+    float:left;
+}
