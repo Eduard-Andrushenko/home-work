@@ -1,0 +1,140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+body,html{
+    scroll-behavior: smooth;
+}
+.wrapper{
+    max-width: 1200px;
+    background: violet;
+    text-align: center;
+    margin: 0 auto;
+}
+.inline1{
+    background: lime;
+    font-size: 0;
+}
+.inline_block{
+    max-width: 600px;
+    border: red 2px solid;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+}
+.inline2{
+    background: blue;
+    font-size: 0;
+}
+.inline_block2{
+    max-width: 400px;
+    border: red 2px solid;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 16px;
+}
+.b_top{ 
+    border-top: 2px red solid;
+}
+.b_left{
+  border-left: 2px red solid;
+}
+.b_bottom{
+  border-bottom: 2px red solid ;
+}
+.b_right{
+  border-right: 2px red solid;
+}
+.inline3{
+    background: green;
+    font-size: 0;
+}
+.inline_block3{
+    max-width: 600px;
+    display: inline-block;
+    font-size: 0px;
+    border: red 2px solid;
+    box-sizing: border-box;
+}
+.inline_block4{
+    max-width: 296px;
+    display: inline-block;
+    font-size: 16px;
+}
+.inline_block5{
+    max-width: 145px;
+    display: inline-block;
+    font-size: 12px;
+}
+.inline_block6{
+  max-width: 600px;
+    display: inline-block;
+    font-size: 16px;
+    border: red 2px solid;
+    box-sizing: border-box;
+}
+.inline4{
+  background: pink;
+    font-size: 0;
+}
+.inline_block7{
+  max-width: 200px;
+    display: inline-block;
+    font-size: 0px;
+    border: red 2px solid;
+    box-sizing: border-box;
+}
+.inline_block8{
+  max-width: 500px;
+    display: inline-block;
+    font-size: 0px;
+    border: red 2px solid;
+    box-sizing: border-box;
+}
+.div1{
+  display: inline-block;
+  font-size: 16px;
+}
+.div2{
+  display: inline-block;
+  font-size: 14px;
+}

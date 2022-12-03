@@ -109,7 +109,6 @@ background: violet;
 }
 .one_block{
 border: 2px red solid;
-max-width: 600px;
 box-sizing: border-box;
 }
 .blocks{
