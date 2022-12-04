@@ -41,13 +41,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.wrapper{
+  max-width:1200px;
+  background-color:peachpuff;
+  text-align:center;
+  margin:0px auto; 
+}
 div{
     color:black;
     font-size:27px;
-    max-width:1200px;
     background-color:peachpuff;
     text-align:center;
-    margin:0px auto; 
+    margin:0px auto;
 }
 p{
     margin:10px 0;
@@ -70,7 +75,10 @@ h3{
     font-size:20px;margin:0 auto;text-decoration: underline 3px orange;font-weight: bold;
 }
 .neck{
-    font-size:16px;text-align: justify;max-width:500px;margin:0 0;
+    font-size:16px;
+    text-align: justify;
+    max-width:500px;
+    margin:0 0;
 }
 .text_h1{
   text-align: center; font-size: 25px;color: aqua;
@@ -93,4 +101,28 @@ img{
 }
 span{
   margin-top: 15px;
+}
+.block{
+  position: relative;
+  max-width: 350px;
+}
+.text_block{
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+  bottom: 20px;
+  max-width: 350px;
+  background: yellow;
+  opacity: 0;
+}
+.block:hover .text_block{
+  opacity: 1;
+}
+.bb{
+  margin:10px 0;
+    color:green;
+    font-size: 15px;
+    text-align:left;
+    max-width: fit-content;
 }
