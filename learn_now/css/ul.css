@@ -51,65 +51,39 @@ body,html{
     margin: 0 auto;
     padding: 0 0;
 }
-.div1{
-    background: rgb(115, 115, 72);
-    display: flex;
-    padding-top: 155px;
+ul{
+    font-size: 0;
+    text-align: center;
 }
-.flex{
-    text-align: justify;
-    font-size: 16px;
+ul li{  
+    display: inline-block;
+    font-size: 25px;
+    background: yellow;
+    position: relative;
 }
-.outline{
-    outline: 2px red solid;
+ul li+li{
+  margin: 0 0 0 50px;
 }
-.div2{
-    background: lime;
-    display: flex;
+ul li:hover{  
+  background: lime;
 }
-.flex1{
-    text-align: justify;
-    font-size: 16px;
-    max-width: 400px;
+ul li a{
+    color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    padding: 10px 20px;
 }
-.flex2{
-    text-align: justify;
-    font-size: 16px;
-    flex-direction: column;
+ul ul{
+  position: absolute;
+  left: 0;
+  top: 100%;
+  display: none;
+  padding: 15px 0;
 }
-.div3{
-     background: gray;
-     display: flex;
+ul li:hover ul{
+  display: block;
 }
-.flex3{
-    text-align: justify;
-    font-size: 16px;
-    max-width: 600px;
-    display: flex;
-}
-.flex4{
-    max-width: 300px;
-    display: flex;
-}
-.flex5{
-    max-width: 300px;
-    flex-direction: column;
-}
-.flex6{
-    text-align: justify;
-    font-size: 16px;
-    max-width: 600px;
-}
-.f_c{
-    max-width: 150px;
-}
-.div4{
-    background: gold;
-    display: flex;
-}
-.fl{
-    max-width: 500px;
-}
-.fl1{
-    max-width: 200px;
+ul ul li{
+  margin: 0;
 }

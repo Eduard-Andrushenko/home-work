@@ -56,7 +56,8 @@ body,html{
     margin: 0 auto;
 }
 .div1{
-    background-color: yellow;   
+    background-color: rgb(31, 130, 90);
+    padding-top: 155px;   
 }
 .float{
     background: violet;

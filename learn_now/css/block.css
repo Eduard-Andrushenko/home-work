@@ -52,7 +52,8 @@ body,html{
     padding: 0 0;
 }
 .block{
-background: lime;
+background: gray;
+padding-top: 110px;
 }
 .text{
 display: table-cell;

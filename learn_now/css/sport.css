@@ -44,72 +44,34 @@ table {
 body,html{
     scroll-behavior: smooth;
 }
-.wrapper{
-    max-width: 1200px;
-    background: blue;
-    text-align: center;
-    margin: 0 auto;
-    padding: 0 0;
+div{
+    color:black;
+    font-size: 27px;
+    width:1200px;
+    background-color:peachpuff;
+    text-align:center;
+    margin:0 auto; 
 }
-.div1{
-    background: rgb(115, 115, 72);
-    display: flex;
+p{
+    margin:10px 0;
+}
+h1{
+    font-weight: bold;
+    font-size: 30px;
     padding-top: 155px;
 }
-.flex{
+h2{
+    font-size:25px;
+    font-weight: bold;
+}
+h3{
+    font-size:20px;
+    margin:0 auto;
+    font-weight: bold;
+}
+.neck{
+    font-size:16px;
     text-align: justify;
-    font-size: 16px;
-}
-.outline{
-    outline: 2px red solid;
-}
-.div2{
-    background: lime;
-    display: flex;
-}
-.flex1{
-    text-align: justify;
-    font-size: 16px;
-    max-width: 400px;
-}
-.flex2{
-    text-align: justify;
-    font-size: 16px;
-    flex-direction: column;
-}
-.div3{
-     background: gray;
-     display: flex;
-}
-.flex3{
-    text-align: justify;
-    font-size: 16px;
-    max-width: 600px;
-    display: flex;
-}
-.flex4{
-    max-width: 300px;
-    display: flex;
-}
-.flex5{
-    max-width: 300px;
-    flex-direction: column;
-}
-.flex6{
-    text-align: justify;
-    font-size: 16px;
-    max-width: 600px;
-}
-.f_c{
-    max-width: 150px;
-}
-.div4{
-    background: gold;
-    display: flex;
-}
-.fl{
-    max-width: 500px;
-}
-.fl1{
-    max-width: 200px;
+    width:500px;
+    margin:0 0;
 }

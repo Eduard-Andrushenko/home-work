@@ -51,8 +51,9 @@ body,html{
     margin: 0 auto;
 }
 .inline1{
-    background: lime;
+    background: grey;
     font-size: 0;
+    padding-top: 110px;
 }
 .inline_block{
     max-width: 600px;
